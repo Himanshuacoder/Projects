@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Privacy Policy</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="/">
+                <img style="border-radius: 50px;" src="logo.PNG" width="50px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#emailModal">Email Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit"><img class="img-fluids" style="height: 1rem;"
+                            src="search.png" alt=""></button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signinModal">Log In</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Sign
+                        Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Email Modal -->
+
+    <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <!-- <img class="mb-4" src="logo.jpg" alt="" width="72" height="57"> -->
+
+                        <div class="form-label mb-2">
+                            <label for="floatingInput">To:</label>
+                            <input type="email" class="form-control" id="floatingInput" placeholder="crowdfunding@gmail.com" disabled>
+
+                        </div>
+                        <div class="form-label mb-2">
+                            <label for="floatingInput">From:</label>
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject: </label>
+                            <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your Message" rows="3"></textarea>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <div class="d-flex ">
+                            <button class="btn btn-sm btn-primary px-4" type="submit" value="Send">Send</button>
+                            <li style="list-style: none;" class="dropdown">
+                                <a class="dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="attachment.png" class=" img-fluid " style="height: 1.5rem;" width="30" alt=""></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-toggle">
+                                    <li><a class="dropdown-item" href="#">Attach Files </a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <p class="mt-5 mb-3 text-muted">© 2020–2021 Company, Inc. · <a href="privacy.html">Privacy</a> ·
+                            <a href="terms.html">Terms</a></p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign In Modal -->
+
+    <div class="modal fade" id="signinModal" tabindex="-1" aria-labelledby="signinModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signinModalLabel">Please sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- <img class="mb-4" src="logo.jpg" alt="" width="72" height="57"> -->
+
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                        <p class="mt-5 mb-3 text-muted">© 2020–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- <img class="mb-4" src="logo.jpg" alt="" width="72" height="57"> -->
+
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="cfloatingPassword" placeholder="Password">
+                            <label for="cfloatingPassword">Confirm Password</label>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Create Account</button>
+                        <p class="mt-5 mb-3 text-muted">© 2020–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCORDION START - PRIVACY POLICY -->
+
+    <h2 class="d-flex" style="justify-content: center; text-decoration:underline">Privacy Policy</h2>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1. Respecting Privacy
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Privacy is a fundamental right, and at CrowdFunding and its group companies, it is treated
+                        as such. This document sets forth our current policy in this regard.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2. Sources of Personal Data
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Our business is founded on the principle that people matter. Respect for people is the
+                        foundation of our business. Respect for people includes respecting their right to privacy.
+
+                        We are engaged in the business of using innovative ways to bring health to all in India. Our
+                        website seeks to bring cases of those in need of healthcare and other essential services to the
+                        attention of those in a position to make a difference and the opportunity to do so. The users of
+                        our website are those in need and those seeking to help.
+
+                        In the conduct of our business, we collect and process personal data of our users and visitors.
+                        Personal data is collected in the course of transacting on the website. Personal data is also
+                        collected by CrowdFunding and its affiliates outside of website through in-person meetings,
+                        participation in conferences and other business forums, transaction or promotion of business,
+                        and with respect to job applicants, through job application materials and interviews. Personal
+                        data is also collected through social media; from solicited and unsolicited communications;
+                        responses to promotional and other materials, among others. If your personal data is available
+                        with us, more likely than not, it has been shared by you with us.
+
+                        Data collection technologies built into our websites, telecommunication systems, digital
+                        advertising, social media, etc. are additional sources of personal data collection. In addition
+                        to personal data that a user voluntarily furnishes, these electronic systems also collect
+                        personal data without the knowledge of the user, including user’s preferences, frequency of
+                        access, IP addresses, type of browser, communication device or operating systems used, and
+                        geographic location, etc.
+
+                        Separately, we also collect and process personal data of our employees and independent
+                        contractors at the time of, in the course of and following their retention.</strong>.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3. Third-Party Activities
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Unaffiliated third parties, such as Google, Facebook, Twitter, etc. are providers of
+                        avenues, content, functionality and services for our web and social media sites. We do not
+                        control what and how these and other third parties collect personal data or how they use it. We
+                        do know, however, that in addition to using sophisticated technologies such as cookies and web
+                        beacons on web and social media sites, including sites such as ours, third parties routinely
+                        employ new and innovative tools, techniques and practices to collect, receive, process, buy and
+                        sell personal information over extended durations, build sophisticated user profiles and
+                        commercially exploit it. We do not control and are not responsible for the privacy and business
+                        practices of these third parties. Note here that certain of their activities can potentially be
+                        managed by users themselves, as for instance, through Internet browser and handheld app
+                        controls.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    4. Protecting Personal Data
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>We use physical, technical and administrative measures to protect personal data against
+                        loss, theft and unauthorized use, disclosure or modification. We strive to protect the
+                        information we maintain; however, we cannot ensure or warrant the security of any information
+                        that is transmitted to or held by us because data transmission and storage is neither error-free
+                        nor completely secure.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    5. Changes to this Privacy Policy
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>We may update this Privacy Policy at any time. The version currently available on our
+                        website is the most updated version and contains the date it was last updated.</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2020–2021 Company, Inc. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

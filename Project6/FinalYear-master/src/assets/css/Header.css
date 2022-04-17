@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.header-lg .header-sec1 .nav-link{
+    padding: 0 5px;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    /* color: rgb(122, 120, 120) !important; */
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+.header-lg  .header-sec1{
+    background-color: rgb(212, 207, 207);
+}
+
+
+/*------------------------------------------------------------------ */
+
+.header-lg .header-sec2{
+   padding: 1rem;
+}
+.header-lg .header-sec2 b{
+    color: rgb(151, 148, 148);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*------------------------Search bar---------------------------*/
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(167, 211, 45)
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: rgb(132, 245, 39);
+}
+
+/*-------------------------------------------------------- */
+.header-lg .header-sec3{
+    background-color: rgb(132, 245, 39);
+}
+.header-lg .header-sec3 .nav-link{
+    padding: 3px 5px;
+    margin: 0 5px;
+    color: rgb(51, 51, 51) !important;
+    font-weight: 600;
+}
+
+.nav-link button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/*------------------dropdown ---------------------------*/
+
+.dropdown-menu .dropdown-item{
+    background-color: whitesmoke;
+    color: rgb(77, 74, 74);
+    font-weight: 600;
+}
+
+/*-------------------------wishlist points --------------------------*/
+.points{
+    background-color: rgb(228, 222, 222);
+    color: rgb(72, 73, 72);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding:0 0.3rem;
+    border-radius: 50%;
+    border:1px groove yellowgreen
+}
+
+
+/*-----------------LOGO---------------------*/
+.logo{
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    border: 3px solid yellowgreen;
+    border-radius: 1px;
+    box-shadow: 5px 3px rgb(205, 240, 6);
+}

@@ -1,0 +1,27 @@
+/* footer{
+    color: rgb(56, 54, 54) !important;
+} */
+footer ul li{
+    list-style-type: none;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+footer h4{
+   text-align: left;
+   margin-left: 10%;
+}
+footer li .nav-link{
+   line-height: 0.1rem !important;
+   /* color: white; */
+}
+.icon .fab{
+    font-size: 2rem;
+    padding:0 6px;
+    color: blue;
+}
+.icon .fa-rupee-sign{
+    font-size: 2rem;
+    color: blue;
+
+}

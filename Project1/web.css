@@ -1,0 +1,9 @@
+/* CSS RESET */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/img.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+
+}

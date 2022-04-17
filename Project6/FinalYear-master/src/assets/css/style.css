@@ -1,0 +1,76 @@
+/*---------------------Contact----------*/
+/* .contact .block{
+    background-color: rgba(0,0,0,.8);
+    padding:40px 0;
+    color: rgb(231, 209, 209);
+} */
+.contact{
+    background-image: url("../img/contact.jpg");
+    opacity: 0.9;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+.contact h2{
+    text-align: left;
+    margin: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.contact form{
+    padding:10px;
+    line-height: 3rem;
+}
+textarea{
+    resize: none;
+}
+.contact button{
+    border: 2px solid yellowgreen;
+    color: whitesmoke;
+    background-color: yellowgreen;
+    font-weight: 700;
+    padding:10px;
+}
+/*------------ About ------------------------*/
+.
+.card{
+    width: 18rem;
+    margin: 2rem 0;
+    /* color: rgb(44, 43, 43); */
+    font-weight: 600;
+    
+}
+
+/*-------------------------Signup-----------------------*/
+.Signup{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+} 
+.Signup h2{
+    text-align: left;
+    margin-top: 1rem;
+    /* color: rgb(61, 61, 61); */
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+form{
+    border: 1px solid ;
+    padding: 2rem;
+    margin:2rem 5%;
+    text-align: left;
+    line-height: 3rem;
+    font-weight: bolder;
+}
+form .btn{
+    border: 2px solid white;
+    background-color: rgb(180, 180, 16);
+    /* color: whitesmoke; */
+    padding: 2% 5%;
+    margin-top: 2rem;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
