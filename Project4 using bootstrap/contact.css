@@ -1,6 +1,6 @@
 .bgimg::before {
     content: "";
-    background: url("contact.jpg") no-repeat;
+    background: url("contact.jpg");
     position: absolute;
     top: 0;
     left: 0;
