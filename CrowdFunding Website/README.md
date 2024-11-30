@@ -1,2 +1,1 @@
-# donationweb
-https://donationweb.herokuapp.com/
+# This project is about a crowd funding website.
